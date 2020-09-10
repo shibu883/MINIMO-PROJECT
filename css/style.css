@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;669;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body,h1,h2,h3,h4,h5,h6,p,span,button,input{
+    font-family: 'Playfair Display', serif;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    display: flow-root;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.navbar{
+    width: 100%;
+    float: left;
+    padding: 48px 0px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+.menu ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 75px;
+}
+.menu ul li a{
+    color: #b4ad9e;
+}
+.banner{
+    width: 100%;
+    display: flow-root;
+}
+.details{
+    padding: 65px;
+}
+.pla{
+    color: #b4ad9e;
+}
+.deall{
+    margin: 21px 0px;
+    
+}
+.lorem{
+    color: #646464;
+    margin-bottom: 34px;
+}
+.leave{
+    color: #b4ad9e;
+}
+.post-gallery{
+    width: 100%;
+    display: flow-root;
+}
+.post{
+    padding: 65px;
+}
+.post-pic{
+    width: 100%;
+    float: left;
+}
+.item-1{
+    width: 50%;
+    float: left;
+}
+.item-2{
+    width: 50%;
+    float: right;
+}
+.post-pic .pla{
+    margin-top: 30px;
+}
+.item{
+    padding: 32px;
+}
+.item h1{
+    font-size: 31px;
+}
+.sign-up{
+    width: 100%;
+    background: #f0f0f0;
+    display: flow-root;
+    padding: 80px 0px;
+    text-align: center;
+}
+form{
+    margin-top: 32px;
+    position: relative;
+}
+form input{
+    background: transparent;
+    padding: 10px 0px;
+    width: 350px;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+form input:focus{
+    outline: none;
+}
+form i{
+    position: absolute;
+    top: 16px;
+    right: 397px;
+}
+.load-more{
+    text-align: center;
+}
+.load-more button{
+    padding: 15px 20px;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid #b4ad9e;;
+    
+}
+.load-more button a{
+    color: #b4ad9e;
+}
+.footer{
+    width: 100%;
+    display: flow-root;
+    background: #f0f0f0;
+    padding: 60px 0px;
+}
+.footer-aria{
+    width: 100%;
+    float: left;
+}
+.footer-menu{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.footer-icon{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.footer-aria ul li{
+    list-style: none;
+    display: inline-block;;
+}
+.footer-menu ul li{
+    margin-right: 20px;
+}
+.footer-icon ul li{
+    margin-left: 20px;
+}
+.footer-aria ul li a{
+    color: black;
+}
